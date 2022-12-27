@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Assign permissions to the scripts, check if dependencies are installed and install them if not
-./dep.sh
+chmod +x dependencies.sh && ./dependencies.sh
 
 # Draw a 1280 x 720 pixels white background, with a 16:9 aspect ratio in JPG
 python -c "from PIL import Image; Image.new('RGB', (1280, 720), (255, 255, 255)).save('image.jpg')"
