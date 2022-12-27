@@ -1,7 +1,7 @@
 # Youtube Thumbnail Maker
 This is a simple script to make thumbnails for youtube videos. It uses python and bash.
 
-<img width="640" alt="2022-12-27-19-45-00-Youtube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209715445-6ddb0268-7850-4526-9353-800b4ef31d1b.png">
+<img width="640" alt="2022-12-27-19-45-11-Youtube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209715811-f245c4e2-a7f4-493c-81f4-5e4029c939da.png">
 
 ## Table of contents
 - [Youtube Thumbnail Maker](#youtube-thumbnail-maker)
@@ -55,3 +55,5 @@ At the end you will have 2 new folders:
 - Records: here it will automatically register the keywords you have used
 
 2022 © All rights reserved. Pylar creative ML License. Pencil Works LLC.
+
+<img width="640" alt="2022-12-27-19-45-00-Youtube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209715816-bcf9f7a8-f55b-4552-97e0-890815fc4b06.png">
