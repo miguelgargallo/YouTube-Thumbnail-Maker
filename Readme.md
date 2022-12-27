@@ -13,6 +13,9 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 
 ```
 * Youtube Thumbnail Maker
+├── Branding
+│   ├── Youtube Thumbnail Maker-1.png
+│   └── Youtube Thumbnail Maker-2.png
 ├── .gitignore
 ├── License.md
 ├── Readme.md
