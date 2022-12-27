@@ -26,6 +26,5 @@ fi
 
 # For every file in the Thumbnails directory, add the filename to the records.md filename line by line with the date and time, hour, minute and second of the creation of the file
 for file in Thumbnails/*; do
-    echo "$(date +%Y-%m-%d) $(date +%H:%M:%S) - $file" >> Records/records.md
+    echo "$(date +%Y-%m-%d) $(date +%H:%M:%S) - $file" >>Records/records.md
 done
-
