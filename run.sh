@@ -1,30 +1,17 @@
 #!/bin/bash
+chmod +x ./run.sh
 
 # Assign permissions to the scripts, check if dependencies are installed and install them if not
-chmod +x dependencies.sh && ./dependencies.sh
+chmod +x ./core/dependencies.sh && chmod +x ./core/records.sh && ./core/dependencies.sh
 
 # Ask the user for a sentence
-read -p "Enter a sentence: " sentence
+read -p "Enter your YouTube 5 keywords: " sentence
 
-# Check if the directory exists and create it if not with the name of "Youtbe Thumbnails"
-if [ ! -d "Thumbnails" ]; then
-    mkdir "Thumbnails"
-fi
+# Execute the thumbnails.sh script
+./core/thumbnails.sh
 
-# Create a 1280 x 720 pixels with a random #Hex color background, save it with the filename $sentence.jpg in the Thumbnails directory and the sentence in the middle of the image, then optimize the image for the web and set the DPI to 1280 x 720, use a complementary color for the text and set the font to Arial 72 pixels in bold.
-python -c "from PIL import Image, ImageDraw, ImageFont; import random; color = '#%06x' % random.randint(0, 0xFFFFFF); img = Image.new('RGB', (1280, 720), color); d = ImageDraw.Draw(img); fnt = ImageFont.truetype('arial.ttf', 72); d.text((640, 360), '$sentence', font=fnt, fill='#%06x' % (0xFFFFFF ^ int(color[1:], 16)), anchor='mm', align='center', stroke_width=2, stroke_fill='#000000'); img.save('Thumbnails/$sentence.jpg'); from PIL import Image; img = Image.open('Thumbnails/$sentence.jpg'); img.save('Thumbnails/$sentence.jpg', optimize=True, dpi=(1280, 720));"
+# Create an image png format of: 1280x720 pixels, 144 dpi and the $sentence variable in the center of the thumbnail in arial font, size 136, color random light pastel color and background color complementary color in 0.45 opacity, text with shadow, in high quality, save for the web colors
+python -c "from PIL import Image, ImageDraw, ImageFont; import random; img = Image.new('RGB', (1280, 720), color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))); d = ImageDraw.Draw(img); fnt = ImageFont.truetype('arial.ttf', 136); d.text((640, 360), '$sentence', font=fnt, fill=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), anchor='mm', align='center', stroke_width=2, stroke_fill=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), shadow=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), shadow_offset=2); img.save('Thumbnails/$(date +%Y-%m-%d-%H-%M-%S)-$sentence.png', dpi=(144, 144), quality=95, optimize=True, progressive=True, colors=256)"
 
-# Check if the directory exists and create it if not with the name of "Records"
-if [ ! -d "Records" ]; then
-    mkdir "Records"
-fi
-
-# Check if there is a file records.md inside the Records directory and create it if not
-if [ ! -f "Records/records.md" ]; then
-    touch "Records/records.md"
-fi
-
-# For every file in the Thumbnails directory, add the filename to the records.md filename line by line with the date and time, hour, minute and second of the creation of the file
-for file in Thumbnails/*; do
-    echo "$(date +%Y-%m-%d) $(date +%H:%M:%S) - $file" >>Records/records.md
-done
+# Run the records.sh script
+./core/records.sh
