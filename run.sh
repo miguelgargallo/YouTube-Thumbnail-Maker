@@ -6,10 +6,8 @@ chmod +x ./core/dependencies.sh && chmod +x ./core/records.sh && ./core/dependen
 
 # Ask for the 2 first keywords
 read -p "Enter your YouTube 2 keywords: " sentence2words
-
 # Ask for the 3 second keywords
 read -p "Enter your YouTube 3 keywords: " sentence3words
-
 # Ask for the 2 last keywords
 read -p "Enter your YouTube 2 keywords: " sentence2lastwords
 
