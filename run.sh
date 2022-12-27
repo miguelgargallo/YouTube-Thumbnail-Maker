@@ -6,5 +6,10 @@ chmod +x dependencies.sh && ./dependencies.sh
 # Ask the user for a sentence
 read -p "Enter a sentence: " sentence
 
-# Create a 1280 x 720 pixels white background with filename $sentence.jpg in the current directory and the sentence in the middle of the image
-python -c "from PIL import Image, ImageDraw, ImageFont; Image.new('RGB', (1280, 720), (255, 255, 255)).save('$sentence.jpg'); image = Image.open('$sentence.jpg'); draw = ImageDraw.Draw(image); font = ImageFont.truetype('arial.ttf', 36); draw.text((640, 360), '$sentence', (0, 0, 0), font=font, anchor='mm'); image.save('$sentence.jpg'); image.save('$sentence.jpg', quality=100, optimize=True, progressive=True, subsampling='4:4:4', dpi=(1280, 720))"
+# Check if the directory exists and create it if not with the name of "Youtbe Thumbnails"
+if [ ! -d "Thumbnails" ]; then
+    mkdir "Thumbnails"
+fi
+
+# Create a 1280 x 720 pixels with a random #Hex color background, save it with the filename $sentence.jpg in the Thumbnails directory and the sentence in the middle of the image, then optimize the image for the web and set the DPI to 1280 x 720, use a complementary color for the text and set the font to Arial 72 pixels in bold.
+python -c "from PIL import Image, ImageDraw, ImageFont; import random; color = '#%06x' % random.randint(0, 0xFFFFFF); img = Image.new('RGB', (1280, 720), color); d = ImageDraw.Draw(img); fnt = ImageFont.truetype('arial.ttf', 72); d.text((640, 360), '$sentence', font=fnt, fill='#%06x' % (0xFFFFFF ^ int(color[1:], 16)), anchor='mm', align='center', stroke_width=2, stroke_fill='#000000'); img.save('Thumbnails/$sentence.jpg'); from PIL import Image; img = Image.open('Thumbnails/$sentence.jpg'); img.save('Thumbnails/$sentence.jpg', optimize=True, dpi=(1280, 720));"
