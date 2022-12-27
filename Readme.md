@@ -54,6 +54,6 @@ At the end you will have 2 new folders:
 - Thumbnails: with the thumbnails
 - Records: here it will automatically register the keywords you have used
 
-2022 © All rights reserved. Pylar creative ML License. Pencil Works LLC.
-
 <img width="640" alt="2022-12-27-19-45-00-Youtube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209715816-bcf9f7a8-f55b-4552-97e0-890815fc4b06.png">
+
+2022 © All rights reserved. Pylar creative ML License. Pencil Works LLC.
