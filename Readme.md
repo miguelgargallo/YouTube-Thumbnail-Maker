@@ -1,8 +1,8 @@
-# Youtube Thumbnail maker
+# Youtube Thumbnail Maker
 This is a simple script to make thumbnails for youtube videos. It uses python and bash.
 
 ## Table of contents
-- [Youtube Thumbnail maker](#youtube-thumbnail-maker)
+- [Youtube Thumbnail Maker](#youtube-thumbnail-maker)
   - [Table of contents](#table-of-contents)
   - [Inside this project](#inside-this-project)
   - [What is this project about?](#what-is-this-project-about)
