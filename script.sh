@@ -1,18 +1,23 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Get the current date in the format YYYY-MM-DD
-date=$(date +"%Y-%m-%d")
+# Check if pillow is installed
+if ! python -c "import PIL" &> /dev/null; then
+    echo "Pillow is not installed"
+    exit 1
+fi
 
-# Generate a pastel random color
-color=$(convert -list color | sort -R | head -n 1)
+# Check if the imageio library is installed
+if ! python -c "import imageio" &> /dev/null; then
+    echo "imageio is not installed"
+    exit 1
+fi
 
-# Create the image with the specified dimensions and the pastel random color as the background
-convert -size 1280x720 xc:"$color" image.jpg
+# Draw a 1280 x 720 pixels white background, with a 16:9 aspect ratio in JPG
+python -c "from PIL import Image; Image.new('RGB', (1280, 720), (255, 255, 255)).save('image.jpg')"
 
-# Add the text to the center of the image in the opposite complementary color
-convert image.jpg -gravity center -font arial -pointsize 72 -fill black -annotate +0+0 'This is a test' -channel RGBA -negate image.jpg
+# Add a sentence to the image in the middle of the image (centered) by the user from a prompt
+read -p "Enter a sentence: " sentence
+python -c "from PIL import Image, ImageDraw, ImageFont; image = Image.open('image.jpg'); draw = ImageDraw.Draw(image); font = ImageFont.truetype('arial.ttf', 32); draw.text((640, 360), '$sentence', (0, 0, 0), font=font); image.save('image.jpg')"
 
-# Save the image with the current date as the filename
-mv image.jpg "${date}.jpg"
-
-echo "Image created successfully and saved as ${date}.jpg"
+# Save the image as "image.jpg" in the current directory
+python -c "import imageio; imageio.imwrite('image.jpg', imageio.imread('image.jpg'))"
