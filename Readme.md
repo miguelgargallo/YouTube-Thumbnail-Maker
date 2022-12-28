@@ -18,10 +18,10 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 ```
 * YouTube Thumbnail Maker
 ├── .gitignore
-├── Branding
-│   ├── Youtube Thumbnail Maker-1.png
-│   └── Youtube Thumbnail Maker-2.png
-├── License.md
+├── examples
+│   ├── 2022-12-28-02-15-13-YouTube Thumbnail-Maker by-miguelgargallo.png
+│   ├── 2022-12-28-02-15-30-YouTube Thumbnail-Maker by-miguelgargallo.png
+│   └── 2022-12-28-02-15-44-YouTube Thumbnail-Maker by-miguelgargallo.png├── License.md
 ├── Readme.md
 ├── core
 │   ├── dependencies.sh
