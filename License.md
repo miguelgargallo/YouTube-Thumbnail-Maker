@@ -30,7 +30,7 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 | ------------ | ------------ |
 | dated  | November the 1st of the year 2022  |
 | from  | legal@itamaesan.org (contact us through this address)  |
-| version  | 0.0.1  |
+| version  | 0.0.2 pre (a)  |
 
 ## Section I: PREAMBLE
 
