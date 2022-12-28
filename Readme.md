@@ -17,21 +17,21 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 
 ```
 * YouTube Thumbnail Maker
-├── run.sh
-├── run_christmas_red_black.sh
-├── run_christmas_red_white.sh
+├── play.sh (this is the main script)
 ├── core
 │   ├── dependencies.sh
 │   ├── records.sh
 │   └── thumbnails.sh
+├── run.sh
+├── run_christmas_red_black.sh
+├── run_christmas_red_white.sh
+├── examples
+│   ├── 2022-12-28-02-15-13-YouTube Thumbnail-Maker by-miguelgargallo.png
+│   ├── 2022-12-28-02-15-30-YouTube Thumbnail-Maker by-miguelgargallo.png
+│   └── 2022-12-28-02-15-44-YouTube Thumbnail-Maker by-miguelgargallo.png
 ├── .gitignore
 ├── License.md
-├── Readme.md
-├── play.sh (this is the main script)
-└── examples
-    ├── 2022-12-28-02-15-13-YouTube Thumbnail-Maker by-miguelgargallo.png
-    ├── 2022-12-28-02-15-30-YouTube Thumbnail-Maker by-miguelgargallo.png
-    └── 2022-12-28-02-15-44-YouTube Thumbnail-Maker by-miguelgargallo.png
+└── Readme.md
 ```
 
 ## What is this project about?
@@ -62,7 +62,7 @@ Choose between run.sh a random color YouTube Thumbnail Maker, or run christmas r
 Type 1 for run random color YouTube Thumbnail Maker
 Type 2 for run christmas red black themed
 Type 3 for run christmas red white themed
-Choose 1, 2, or 3: 
+Choose 1, 2, or 3:
 ```
 
 That's it!
