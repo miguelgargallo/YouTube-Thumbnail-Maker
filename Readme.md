@@ -28,7 +28,7 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 │   ├── records.sh
 │   └── thumbnails.sh
 ├── play.sh (this is the main script)
-├── run_random.sh
+├── run.sh
 ├── run_christmas_red_black.sh
 └── run_christmas_red_white.sh
 ```

@@ -8,7 +8,7 @@ echo "Type 3 for run christmas red white themed"
 
 read -p "Choose 1, 2, or 3: " choice
 case "$choice" in
-  1) ./run_random.sh ;;
+  1) ./run.sh ;;
   2) ./run_christmas_red_black.sh ;;
   3) ./run_christmas_red_white.sh ;;
   *) echo "Invalid option $REPLY" ;;
