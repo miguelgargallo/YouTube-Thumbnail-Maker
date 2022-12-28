@@ -1,9 +1,11 @@
 # YouTube Thumbnail Maker
+
 This is a simple script to make thumbnails for youtube videos. It uses python and bash.
 
 <img width="640" alt="2022-12-27-22-28-42-YouTube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209724151-0416a3f2-03d2-4d5e-9829-5957f57eaaae.png">
 
 ## Table of contents
+
 - [YouTube Thumbnail Maker](#youtube-thumbnail-maker)
   - [Table of contents](#table-of-contents)
   - [Inside this project](#inside-this-project)
@@ -14,23 +16,27 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 ## Inside this project
 
 ```
-* Youtube Thumbnail Maker
+* YouTube Thumbnail Maker
+├── .gitignore
 ├── Branding
 │   ├── Youtube Thumbnail Maker-1.png
 │   └── Youtube Thumbnail Maker-2.png
-├── .gitignore
 ├── License.md
 ├── Readme.md
 ├── core
 │   ├── dependencies.sh
 │   ├── records.sh
 │   └── thumbnails.sh
-└── run.sh
+├── play.sh (this is the main script)
+├── run_random.sh
+├── run_christmas_red_black.sh
+└── run_christmas_red_white.sh
 ```
 
 ## What is this project about?
 
 From python, it uses the following libraries:
+
 - imageio: to read and write images and videos (https://imageio.github.io/)
 - Pillow (PIL): to manipulate images (https://pillow.readthedocs.io/en/stable/)
 
@@ -41,9 +47,11 @@ Imageio is a very useful library to read and write images and videos. It is very
 PIL it is used to manipulate images. It is also very easy to use and it is very fast. It is also very easy to install. It is available on pip and conda.
 
 ## How to use it
+
 Just run
+
 ```
-./run.sh
+./play.sh
 ```
 
 That's it!
@@ -51,6 +59,7 @@ That's it!
 It will do the rest, it will ask you for 5 keywords on the console, just answer and enjoy!
 
 At the end you will have 2 new folders:
+
 - Thumbnails: with the thumbnails
 - Records: here it will automatically register the keywords you have used
 
