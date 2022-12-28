@@ -1,21 +1,20 @@
-You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
-
-- - - - -
-
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
 | Pylar AI creative ML | Permissions  | Limitations | Conditions |
 | ------------ | ------------ | ------------ | ------------ |
-| November 1st November of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
+| November 1st December of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
 | From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address. | ✅Science Publications | ❌ Liability |  |
 |  | ✅ Research Publications | ❌ Distribution |  |
-| Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
-| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
+| Version: pre-v0.0.2 | ✅ Non-commercial publications  | ❌ Warranty |  |
+|  | ✅ No endorse publications | ❌ Modification to endorse |  |  |
+|  | ✅ Modification only to PR | ❌ Modification to PR outside the [Official Sources](#official-sources)  |  |  |
+| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ Use this license according [Section Indications](#section-0-indications)  | ❌ Modification for commercial use  |  |  |
 
 # Pylar AI creative ML
 
 #### Table of contents
 
+ - [Section 0: INDICATIONS](#section-0-indications)
  - [Section I: PREAMBLE](#section-i-preamble)
  - [1. Definitions](#1-definitions)
  - [Section II: INTELLECTUAL PROPERTY RIGHTS](#section-ii-intellectual-property-rights)
@@ -23,14 +22,20 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
  - [Section IV: OTHER PROVISIONS](#section-iv-other-provisions)
  - [Section V: License VERSIONS](#section-v-License-versions)
  - [Use Restrictions](#use-restrictions)
+ - [Official Sources](#official-sources)
 
 #### About this PylarAIcreativeML License
 
 | About  | Pylar AI creative ML  |
 | ------------ | ------------ |
-| dated  | November the 1st of the year 2022  |
+| dated  | December the 1st of the year 2022  |
 | from  | legal@itamaesan.org (contact us through this address)  |
-| version  | 0.0.1  |
+| version  | pre-v0.0.2 |
+
+## Section 0: INDICATIONS
+
+ - Use this license at Github only as a template of the project according [Official Sources](#Official-Sources)
+ - if the use of the license is outside [Official Sources](#Official-Sources), it must provide a link of the license version, this link is indide the versions folder of the [Official Sources](#Official-Sources).
 
 ## Section I: PREAMBLE
 
@@ -155,23 +160,20 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 ##### You agree not to use the Pylar Documents or Derivatives of the Pylar Documents:
 
 - In any way that violates any applicable national, federal, state, local or international law or regulation;
-
 - For the purpose of exploiting, harming or attempting to exploit or harm minors in any way;
-
 - To generate or disseminate verifiably false information and/or content with the purpose of harming others;
-
 - To generate or disseminate personal identifiable information that can be used to harm an individual;
-
 - To defame, disparage or otherwise harass others;
-
 - For fully automated decision making that adversely impacts an individual’s legal rights or otherwise creates or modifies a binding, enforceable obligation;
-
 - For any use intended to or which has the effect of discriminating against or harming individuals or groups based on online or offline social behavior or known or predicted personal or personality characteristics;
-
 - To exploit any of the vulnerabilities of a specific group of persons based on their age, social, physical or mental characteristics, in order to materially distort the behavior of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological harm;
-
 - For any use intended to or which has the effect of discriminating against individuals or groups based on legally protected characteristics or categories;
-
 - To provide medical advice and medical results interpretation;
-
 - To generate or disseminate information for the purpose to be used for administration of justice, law enforcement, immigration or asylum processes, such as predicting an individual will commit fraud/crime commitment (e.g. by text profiling, drawing causal relationships between assertions made in documents, indiscriminate and arbitrarily-targeted use).
+
+## Official Sources
+
+### What are the official sources
+
+- Github Author: [https://github.com/miguelgargallo/Pylar-AI-creative-ML-License](https://github.com/miguelgargallo/Pylar-AI-creative-ML-License)
+- Huggingface Author: [https://huggingface.co/spaces/superdatas/LICENSE/](https://huggingface.co/spaces/superdatas/LICENSE/)
