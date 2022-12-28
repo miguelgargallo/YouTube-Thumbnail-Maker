@@ -9,8 +9,8 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 | November 1st November of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
 | From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address. | ✅Science Publications | ❌ Liability |  |
 |  | ✅ Research Publications | ❌ Distribution |  |
-| Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
-| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
+| Version: 0.0.1 | ✅ PR to the Official Project only to improve the code  | ❌ Warranty |  |
+| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications and Non-commercial publications | ❌ Modification |  |  |
 
 # Pylar AI creative ML
 
