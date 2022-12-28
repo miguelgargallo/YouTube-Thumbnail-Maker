@@ -76,4 +76,4 @@ At the end you will have 2 new folders:
 
 <img width="640" alt="2022-12-27-22-28-22-YouTube Thumbnail-Maker by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209724168-b1313f4a-608e-43aa-b968-c4561d988d9a.png">
 
-2022 © All rights reserved. Pylar creative ML License. Pencil Works LLC.
+2022 © All rights reserved. Pylar AI creative ML License. Pencil Works LLC.
