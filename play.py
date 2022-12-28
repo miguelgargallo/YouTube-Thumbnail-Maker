@@ -28,6 +28,7 @@ class ThumbnailMakerGUI(QWidget):
         hbox1 = QHBoxLayout()
         hbox2 = QHBoxLayout()
         hbox3 = QHBoxLayout()
+        hbox4 = QHBoxLayout()
         
         # Create the label and combo box
         label = QLabel("Choose the thumbnail maker:")
@@ -56,4 +57,13 @@ class ThumbnailMakerGUI(QWidget):
         hbox4.addWidget(self.sentence2lastwords_input)
         vbox.addLayout(hbox1)
         vbox.addLayout(hbox2)
+        vbox.addLayout(hbox3)
+        vbox.addLayout(hbox4)
+        vbox.addWidget(button)
         
+        # Set the layout
+        self.setLayout(vbox)
+        
+        # Set the window properties
+        self.setGeometry(300, 300, 500, 200)
+        self.setWindowTitle("YouTube Thumbnail Maker GUI")
