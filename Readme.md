@@ -17,21 +17,21 @@ This is a simple script to make thumbnails for youtube videos. It uses python an
 
 ```
 * YouTube Thumbnail Maker
-├── .gitignore
-├── examples
-│   ├── 2022-12-28-02-15-13-YouTube Thumbnail-Maker by-miguelgargallo.png
-│   ├── 2022-12-28-02-15-30-YouTube Thumbnail-Maker by-miguelgargallo.png
-│   └── 2022-12-28-02-15-44-YouTube Thumbnail-Maker by-miguelgargallo.png
-├── License.md
-├── Readme.md
+├── run.sh
+├── run_christmas_red_black.sh
+├── run_christmas_red_white.sh
 ├── core
 │   ├── dependencies.sh
 │   ├── records.sh
 │   └── thumbnails.sh
+├── .gitignore
+├── License.md
+├── Readme.md
 ├── play.sh (this is the main script)
-├── run.sh
-├── run_christmas_red_black.sh
-└── run_christmas_red_white.sh
+└── examples
+    ├── 2022-12-28-02-15-13-YouTube Thumbnail-Maker by-miguelgargallo.png
+    ├── 2022-12-28-02-15-30-YouTube Thumbnail-Maker by-miguelgargallo.png
+    └── 2022-12-28-02-15-44-YouTube Thumbnail-Maker by-miguelgargallo.png
 ```
 
 ## What is this project about?
