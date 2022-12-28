@@ -13,7 +13,7 @@ except ImportError:
 # Add PyQt5 to the Python path
 sys.path.append('C:\Python\Python37\Lib\site-packages')
 
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QLabel, QComboBox
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QLabel, QComboBox, QLineEdit
 from PyQt5.QtGui import QIcon
 
 
@@ -25,7 +25,9 @@ class ThumbnailMakerGUI(QWidget):
     def initUI(self):
         # Create the layout
         vbox = QVBoxLayout()
-        hbox = QHBoxLayout()
+        hbox1 = QHBoxLayout()
+        hbox2 = QHBoxLayout()
+        hbox3 = QHBoxLayout()
         
         # Create the label and combo box
         label = QLabel("Choose the thumbnail maker:")
@@ -34,38 +36,24 @@ class ThumbnailMakerGUI(QWidget):
         self.combo_box.addItem("Christmas themed YouTube Thumbnail Maker (red and black)")
         self.combo_box.addItem("Random color YouTube Thumbnail Maker (white background, red text)")
         
+        # Create the input fields
+        self.sentence2words_input = QLineEdit()
+        self.sentence3words_input = QLineEdit()
+        self.sentence2lastwords_input = QLineEdit()
+        
         # Create the button
         button = QPushButton("Run thumbnail maker")
         button.clicked.connect(self.run_thumbnail_maker)
         
         # Add the widgets to the layout
-        hbox.addWidget(label)
-        hbox.addWidget(self.combo_box)
-        vbox.addLayout(hbox)
-        vbox.addWidget(button)
-        self.setLayout(vbox)
+        hbox1.addWidget(label)
+        hbox1.addWidget(self.combo_box)
+        hbox2.addWidget(QLabel("Enter your YouTube 2 keywords:"))
+        hbox2.addWidget(self.sentence2words_input)
+        hbox3.addWidget(QLabel("Enter your YouTube 3 keywords:"))
+        hbox3.addWidget(self.sentence3words_input)
+        hbox4.addWidget(QLabel("Enter your YouTube 2 keywords:"))
+        hbox4.addWidget(self.sentence2lastwords_input)
+        vbox.addLayout(hbox1)
+        vbox.addLayout(hbox2)
         
-        # Set the window properties
-        self.setGeometry(300, 300, 300, 150)
-        self.setWindowTitle('YouTube Thumbnail Maker')
-        self.setWindowIcon(QIcon('icon.png'))
-        
-        self.show()
-    
-    def run_thumbnail_maker(self):
-        index = self.combo_box.currentIndex()
-        if index == 0:
-            # Run the first thumbnail maker
-            pass
-        elif index == 1:
-            # Run the second thumbnail maker
-            pass
-        elif index == 2:
-            # Run the third thumbnail maker
-            pass
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = ThumbnailMakerGUI()
-    sys.exit(app.exec_())
