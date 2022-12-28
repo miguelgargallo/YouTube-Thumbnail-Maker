@@ -54,6 +54,16 @@ Just run
 ./play.sh
 ```
 
+Then it will ask you:
+
+```bash
+Choose between run.sh a random color YouTube Thumbnail Maker, or run christmas red black sh, a Christmas themed YouTube Thumbnail Maker with red and black colors or a third option, run.sh a random color YouTube Thumbnail Maker with a white background and red text.
+Type 1 for run random color YouTube Thumbnail Maker
+Type 2 for run christmas red black themed
+Type 3 for run christmas red white themed
+Choose 1, 2, or 3: 
+```
+
 That's it!
 
 It will do the rest, it will ask you for 5 keywords on the console, just answer and enjoy!
