@@ -1,7 +1,3 @@
-chmod +x run.sh
-chmod +x run_christmas_red_black.sh
-chmod +x run_christmas_red_white.sh
-
 # Check if the imageio library is installed
 if ! python -c "import imageio" &>/dev/null; then
     echo "imageio is not installed"
