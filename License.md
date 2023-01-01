@@ -1,65 +1,228 @@
-Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
+# Pylar AI creative ML License
 
-| Pylar AI creative ML | Permissions  | Limitations | Conditions |
-| ------------ | ------------ | ------------ | ------------ |
-| November 1st December of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
-| From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address. | ✅Science Publications | ❌ Liability |  |
-|  | ✅ Research Publications | ❌ Distribution |  |
-| Version: pre-v0.0.2 | ✅ Non-commercial publications  | ❌ Warranty |  |
-|  | ✅ No endorse publications | ❌ Modification to endorse |  |  |
-|  | ✅ Modification only to PR | ❌ Modification to PR outside the [Official Sources](#official-sources)  |  |  |
-| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ Use this license according [Section Indications](#section-0-indications)  | ❌ Modification for commercial use  |  |  |
+## Version 0.0.3
 
-# Pylar AI creative ML
+```
+Version: 0.0.3
+Validity Date: 2023-01-01
+Published Date: 2022-12-31
+Signed By [Pylar Org](https://pylar.org)
+```
 
-#### Table of contents
+```
+Permitted Uses          Prohibited Uses
+-------------------     -------------------
+Private use             Commercial use
+Scientific and          Endorsement of
+research publications   the software
+Non-commercial
+publications
+No endorse
+publications
+Modification
+only to submit
+a PR on an
+official source
+```
 
- - [Section 0: INDICATIONS](#section-0-indications)
- - [Section I: PREAMBLE](#section-i-preamble)
- - [1. Definitions](#1-definitions)
- - [Section II: INTELLECTUAL PROPERTY RIGHTS](#section-ii-intellectual-property-rights)
- - [Section III: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION](#section-iii-conditions-of-usage-distribution-and-redistribution)
- - [Section IV: OTHER PROVISIONS](#section-iv-other-provisions)
- - [Section V: License VERSIONS](#section-v-License-versions)
- - [Use Restrictions](#use-restrictions)
- - [Official Sources](#official-sources)
+- [Pylar AI creative ML License](#pylar-ai-creative-ml-license)
+  - [Version 0.0.3](#version-003)
+  - [Description](#description)
+  - [Summary](#summary)
+    - [Scope of the License](#scope-of-the-license)
+    - [Prohibition on Commercial Use](#prohibition-on-commercial-use)
+    - [Limitations of Liability](#limitations-of-liability)
+    - [Indemnification](#indemnification)
+    - [Warranty](#warranty)
+    - [Disclaimer](#disclaimer)
+    - [Language of the License](#language-of-the-license)
+    - [Legal Review](#legal-review)
+    - [Graphs](#graphs)
+  - [Section I: PREAMBLE](#section-i-preamble)
+  - [Section II: OVERVIEW](#section-ii-overview)
+  - [Section III: PERMISSIONS AND LIMITATIONS](#section-iii-permissions-and-limitations)
+  - [Section VI: DEFINITIONS](#section-vi-definitions)
+    - [Mindmap 1: Pylar Documents and Usage](#mindmap-1-pylar-documents-and-usage)
+    - [Mindmap 2: Owners and License Versions](#mindmap-2-owners-and-license-versions)
+    - [Mindmap 3: Distribution and Modification](#mindmap-3-distribution-and-modification)
+    - [Mindmap 4: Dataset](#mindmap-4-dataset)
+    - [Mindmap 5: Stakeholders](#mindmap-5-stakeholders)
+  - [Section V: INTELLECTUAL PROPERTY RIGHTS](#section-v-intellectual-property-rights)
+  - [Section VI: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION](#section-vi-conditions-of-usage-distribution-and-redistribution)
+  - [Section VII: OTHER PROVISIONS](#section-vii-other-provisions)
+  - [Section VIII: LICENSE VERSIONS](#section-viii-license-versions)
+  - [Section IX Official Sources](#section-ix-official-sources)
+    - [What are the official sources](#what-are-the-official-sources)
+  - [Section X END OF TERMS AND CONDITIONS](#section-x-end-of-terms-and-conditions)
+    - [Attachment A](#attachment-a)
+      - [Use Restrictions](#use-restrictions)
+        - [You agree not to use the Pylar Documents or Derivatives of the Pylar Documents:](#you-agree-not-to-use-the-pylar-documents-or-derivatives-of-the-pylar-documents)
 
-#### About this PylarAIcreativeML License
+## Description
 
-| About  | Pylar AI creative ML  |
-| ------------ | ------------ |
-| dated  | December the 1st of the year 2022  |
-| from  | legal@itamaesan.org (contact us through this address)  |
-| version  | pre-v0.0.2 |
+This is a license agreement for the use of software called "Pylar AI creative ML." The license specifies that the software can be used for private, non-commercial purposes and can be modified, but only for the purpose of submitting a pull request (PR) on an official source. The license also prohibits commercial use, liability, distribution, warranty, modification to endorse, and modification to PR outside of official sources. Additionally, the license requires that any published use of the software or the results of using the software be for non-commercial and non-endorsement purposes and be limited to scientific and research demonstrations via specific social media platforms. The license is subject to both copyright and patent grants and users are granted a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to reproduce, prepare, publicly display, publicly perform, sublicense, and distribute the software. The license includes provisions on conditions of usage, distribution, and redistribution of the software, and requires users to include use-based restrictions in any legal agreements governing the use and/or distribution of the software and to give a copy of the license to any third-party recipients of the software. The use-based restrictions specify that the software cannot be used in certain ways that violate laws or regulations, exploit or harm minors, generate or disseminate false or harmful information, discriminate against or harm individuals or groups, or provide medical advice. The license also includes provisions on term and termination, governing law and jurisdiction, and the process for updating the license. The official sources for the license are the author's Github and Huggingface pages and the official repository for SuperDatas. It is important to carefully read and understand the terms of this license before using the software.
 
-## Section 0: INDICATIONS
+## Summary
 
- - Use this license at Github only as a template of the project according [Official Sources](#Official-Sources)
- - if the use of the license is outside [Official Sources](#Official-Sources), it must provide a link of the license version, this link is indide the versions folder of the [Official Sources](#Official-Sources).
+In summary, this license allows users to use the software for private, non-commercial, and research purposes, but prohibits commercial use and the endorsement of the software. The licensor is not liable for any damages or losses arising from the use of the software, and users of the software agree to indemnify the licensor for any claims or damages arising from their use of the software. The software is provided "as is" without warranty, and the licensor shall not be liable for any damages or losses arising from the use of the software. The license has been reviewed by a lawyer or legal professional to ensure that it is legally enforceable and adequately protects the interests of the licensor.
+
+### Scope of the License
+
+This license applies to the following software and intellectual property rights: [insert specific software or rights covered by the license here].
+Permitted Use
+
+Users of the software are permitted to use it for the following purposes:
+
+    Private use
+    Scientific and research publications
+    Non-commercial publications
+    No endorse publications
+    Modification only to submit a pull request (PR) on an official source
+
+### Prohibition on Commercial Use
+
+The software may not be used for any commercial purpose. Commercial use is defined as [insert definition or examples of commercial use here].
+
+### Limitations of Liability
+
+The licensor shall not be liable for any damages or losses arising from the use of the software, including but not limited to [insert specific types of damages or losses covered by the limitation here].
+
+### Indemnification
+
+Users of the software agree to indemnify the licensor for any claims or damages arising from the use of the software.
+
+### Warranty
+
+The software is provided "as is" without warranty of any kind, either express or implied. The licensor makes no representations or warranties as to the accuracy or completeness of the software and specifically disclaims any warranties of merchantability or fitness for a particular purpose.
+
+### Disclaimer
+
+The licensor shall not be liable for any damages or losses arising from the use of the software, including but not limited to [insert specific types of damages or losses covered by the disclaimer here].
+
+### Language of the License
+
+The license is written in English, and all communications related to the license should be conducted in English. In the event of any conflict between translations of the license, the English version shall prevail.
+
+### Legal Review
+
+The license has been reviewed by a lawyer or legal professional to ensure that it is legally enforceable and adequately protects the interests of the licensor.
+
+### Graphs
+
+Here are some graphs illustrating the permitted and prohibited uses of the software under this license:
+
+🏡 Private use 🔬 Scientific and research publications 🌈 Non-commercial publications 🤝 No endorse publications 🔧 Modification only to submit a PR on an official source 🚫 Commercial use 🚫 Endorsement of the software
+
+```
+Start
+   |
+   |
+   V
+Is the use for commercial purposes?
+   |
+   |
+   V
+   Yes
+   |
+   |
+Prohibited Use
+   |
+   |
+   V
+   No
+   |
+   |
+Is the use for endorsement purposes?
+   |
+   |
+   V
+   Yes
+   |
+   |
+Prohibited Use
+   |
+   |
+   V
+   No
+   |
+   |
+Permitted Use
+   |
+   |
+   V
+End
+```
 
 ## Section I: PREAMBLE
 
-##### Multimodal generative models are being widely adopted and used, and have the potential to transform the way artists, among other individuals, conceive and benefit from AI or ML technologies as a tool for content creation.
+Multimodal generative models are being widely adopted and used, and have the potential to transform the way artists, among other individuals, conceive and benefit from AI or ML technologies as a tool for content creation.
 
 Notwithstanding the current and potential benefits that these artifacts can bring to society at large, there are also concerns about potential misuses of them, either due to their technical limitations or ethical considerations.
 
 In short, this License strives for both the open and not commercial purpose: so, Pylar Documents, does not allow: use for commercial or endorse. When it comes to the open character, we took inspiration from open source but not to permit or grant of IP rights to anyone. Referring to the downstream responsible use, we added use-based restrictions "Use Restrictions" section.
 
 In terms of publishing always must be for non commercial and endorse porpuse:
-  - Pylar Documents.
-  - the in-process results of Pylar Documents.
-  - the end results of Pylar Documents.
-and always limited to scientific and research demonstrations via twitter with the "@miguelgargallo" "#PylarAI" tags or "@miguelgargallo.es" tag and description keyword on Instragam.
+
+- Pylar Documents.
+- the in-process results of Pylar Documents.
+- the end results of Pylar Documents.
+  and always limited to scientific and research demonstrations via twitter with the "@miguelgargallo" "#PylarAI" tags or "@miguelgargallo.es" tag and description keyword on Instragam.
 
 At the same time, we strive to promote open and responsible research on generative models for art and science, both: research and science for not commercial or endorese content generation.
 
 Downstream derivative versions of Pylar Documents could not be released. We believe in the intersection between open and responsible AI development; thus, this License aims to strike a balance between both in order to enable responsible open-science publishing results, in the field of AI and not commercial or endorse.
 This License governs the use of Pylar Documents and is informed by Pylar Documents card associated with Pylar Documents.
 
+## Section II: OVERVIEW
 
-# NOW THEREFORE, You and Licensor agree as follows:
+Pylar AI creative ML is a license designed to govern the use of multimodal generative models and related documents (referred to as "Pylar Documents" in this License). These models have the potential to transform the way artists and other individuals conceive and benefit from artificial intelligence (AI) and machine learning (ML) technologies as a tool for content creation.
 
-## 1. Definitions
+While there are many potential benefits to society from the use of these models, there are also concerns about potential misuses, whether due to technical limitations or ethical considerations. This License therefore strives to balance the open and non-commercial nature of Pylar Documents, while also promoting responsible research and use of generative models for art and science.
+
+## Section III: PERMISSIONS AND LIMITATIONS
+
+Under this License, the following permissions are granted for the use of Pylar Documents:
+
+    Private use: Pylar Documents may be used for personal, non-commercial purposes.
+    Science and research publications: Pylar Documents may be used in scientific and research publications, as long as they are not used for commercial or endorsement purposes.
+    Non-commercial publications: Pylar Documents may be used in non-commercial publications, as long as they are not used for endorsement purposes.
+    Modification for pull requests: Pylar Documents may be modified for the purpose of creating pull requests, as long as the modifications are made within the Official Sources (as defined in Section VIII) and are not used for endorsement purposes.
+
+The following limitations apply to the use of Pylar Documents:
+
+    Commercial use: Pylar Documents may not be used for commercial purposes.
+    Endorsement: Pylar Documents may not be used for endorsement purposes.
+    Liability: The creators and owners of Pylar Documents are not liable for any damages resulting from the use of Pylar Documents.
+    Distribution: Pylar Documents may not be distributed without the written permission of the creators and owners.
+    Warranty: Pylar Documents are provided "as is" without any warranty.
+    Modification to endorse: Pylar Documents may not be modified for the purpose of endorsement.
+    Modification for pull requests outside of Official Sources: Prohibited. This means that you are not allowed to modify the Pylar Documents or any Derivatives of the Pylar Documents for the purpose of making a pull request outside of the designated Official Sources, as defined in the License. This is in order to ensure that all modifications to the Pylar Documents are properly documented and can be easily tracked and traced by the Owners.
+
+NOW THEREFORE, You and Licensor agree as follows:
+
+## Section VI: DEFINITIONS
+
+```
+                                             License
+                                             /     \
+                                      Software       Repo
+                                      /                \
+                               Owner       Pylar Documents
+                                                   /    \
+                                              Dataset     Data
+                                              /    \
+                                        Model    Output
+                                        /    \
+Derivatives of Software, Project  Derivatives of Dataset    Derivatives of Model
+                                                   /
+                                           Complementary Material
+                                           /     \
+                                     Distribution     Licensor
+                                     /       \
+                           Portion of Pylar Documents  Attribution
+                                     /       \
+                           Use-based Restrictions    Official Sources
+```
 
 - "License" means the terms and conditions for use, reproduction, and Distribution as defined in this document.
 - "Software" means the programs and other operating information used by a computer.
@@ -81,21 +244,165 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 - "Third Parties" means individuals or legal entities that are not under common control with Licensor or You.
 - "Contribution" means any work of authorship, including the original version of the Model and any modifications or additions to the Pylar Documents thereof, that is intentionally submitted to Licensor for inclusion in the Model by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Model, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
 - "Contributor" means Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Model.
-- "License versions" means This License is subject to change at anytime. See section Section V: License VERSIONS to know more. (paragraph 13-24).
+- "License versions" means This License is subject to change at anytime. See section Section VIII: License VERSIONS to know more. (paragraph 13-24).
 
+### Mindmap 1: Pylar Documents and Usage
 
-## Section II: INTELLECTUAL PROPERTY RIGHTS
+```
+Pylar Documents
+  |--> Software
+  |--> Project
+  |--> Model
+  |--> Dataset
+  |--> Derivatives
+       |--> Software, Project
+       |--> Dataset
+       |--> Model
+  |--> Complementary Material
+  |--> Use Restrictions (Attachment A)
+       |--> Prohibited Uses
+       |--> Permitted Uses
+       |--> Use-based Restrictions
+```
 
-##### Both copyright and patent grants apply to the Pylar Documents. The Pylar Documents are subject to additional terms as described in Section III.
+### Mindmap 2: Owners and License Versions
+
+```
+Owners
+  |--> Miguel Gargallo
+  |--> Pencil Works LLC
+  |--> ITAMAESAN ORG
+  |--> SUPERDATAS
+  |--> Pylar Team
+License
+  |--> Version History
+       |--> Archived Versions
+       |--> Current Version
+  |--> Proposing and Approving Updates
+       |--> Unanimity Requirement
+  |--> Applying Updates to Pylar Documents
+       |--> Unanimity Requirement
+  |--> Valid Licenses for Archived Versions
+```
+
+### Mindmap 3: Distribution and Modification
+
+```
+Pylar Documents
+  |--> Distribution
+       |--> To Third Parties
+       |--> Hosted Services
+  |--> Modification
+       |--> By Owners
+       |--> By Others (Pull Requests)
+            |--> Outside of Official Sources
+            |--> Within Official Sources
+       |--> Intellectual Property Rights
+       |--> Attribution and Disclaimer
+       |--> Changes to License
+            |--> Included in Distribution
+            |--> Provided Separately
+```
+
+```
+
+                                    🌐 Pylar Documents
+                            💾 Software   📊 Dataset   🤖 Model   📄 Complementary Material
+                                            |
+                                      🔄 Derivatives of Dataset
+                                            |
+                                  🔄 Derivatives of Model
+                                            |
+                ➕ Modification    ⚖ Use-based restrictions    📎 Official Sources
+```
+
+The mindmap includes branches for the different types of derivatives, as well as branches for the use-based restrictions and the official sources. The Software is represented by a 💾 emoji, the Dataset is represented by a 📊 emoji, the Model is represented by a 🤖 emoji, and the Complementary Material is represented by a 📄 emoji. The Derivatives of the Dataset and Model are represented by a 🔄 emoji, and the Modification, Use-based restrictions, and Official Sources are represented by a ➕, ⚖, and 📎 emoji, respectively.
+
+### Mindmap 4: Dataset
+
+```
+                                📊 Dataset
+                                  /       \
+                 🤖 Model       💻 Software
+                /      \         /      \
+📚 Complementary Material 📊 Derivatives of the Dataset  💻 Derivatives of the Software, the Project
+                                  \       /
+                                🤖 Derivatives of the Model
+                                  |
+                      🔒 Use-based restrictions
+                                  |
+                         📁 Official Sources
+```
+
+A mindmap showing the various components of the Pylar Documents and how they are related, using emojis to represent different types of data (e.g. a dataset might be represented by a 📊 emoji, while a model might be represented by a 🤖 emoji). The mindmap could also include branches for the different types of derivatives, as well as branches for the use-based restrictions and the official sources.
+
+### Mindmap 5: Stakeholders
+
+```bash
+                                        🌟 Pylar Documents 🌟
+                                       /           |          \
+                                      /            |           \
+                                     /             |            \
+                                    /              |             \
+                                   /               |              \
+                                  /                |               \
+                          🏭 Owners            🔒 Licensors         💻 Users
+                           |      \                   |    \           /    \
+                           |       \                  |     \         /      \
+                  Permitted Uses   |        Prohibited Uses  Use-based    Restrictions
+                                   |                                          |
+                                   |                                          |
+                           Official Sources                              Other Sources
+
+```
+
+A mindmap depicting the various stakeholders involved in the Pylar Documents, including the Owners, Licensors, and users. Each stakeholder could be represented by a different emoji (e.g. the Owners might be represented by a 🏭 emoji to symbolize their role as creators, while the Licensors might be represented by a 🔒 emoji to symbolize their role in protecting intellectual property rights). The mindmap could also include branches for the different types of permitted and prohibited uses, as well as branches for the use-based restrictions and the official sources.
+
+```bash
+                        🌟 Pylar Documents 🌟
+                       /                     \
+                      /                       \
+                     /                         \
+        🔍 Data Collection                 ⏭️ Model Training
+         /          |      \          /                |         \
+        /           |       \        /                 |          \
+Derivatives       Output      Data   Derivatives       Output      Complementary Material
+ of Dataset     Generation    from  of Model         Generation
+```
+
+Permitted Uses:
+
+    Non-commercial research and scientific demonstrations
+    Personal use
+
+Prohibited Uses:
+
+    Commercial use
+    Endorsement
+
+Use-based Restrictions:
+
+    Cannot create derivatives of the Pylar Documents
+
+Official Sources:
+
+    Pylar Repo
+    Pylar Website
+
+A mindmap illustrating the process of creating and using the Pylar Documents, including steps such as data collection, model training, and output generation. Each step in the process could be represented by a different emoji (e.g. data collection might be represented by a 🔍 emoji, while model training might be represented by a ⏭️ emoji). The mindmap could also include branches for the different types of permitted and prohibited uses, as well as branches for the use-based restrictions and the official sources.
+
+## Section V: INTELLECTUAL PROPERTY RIGHTS
+
+Both copyright and patent grants apply to the Pylar Documents. The Pylar Documents are subject to additional terms as described in Section III.
 
 1. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor does not hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright License to reproduce, prepare, publicly display, publicly perform, subLicense, and distribute the Pylar Documents.
 
 2. Grant of Patent License. Subject to the terms and conditions of this License and where and as applicable, each Contributor does not hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this paragraph), you are not to patent License to make, have made, use, offer to sell, sell, import, and otherwise transfer Pylar Documents, where such License applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Model to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Pylar Documentation or a Contribution incorporated within the Pylar Documents constitutes direct or contributory patent infringement, then any patent Licenses granted to You under this License for the Model and/or Work shall terminate as of the date such litigation is asserted or filed.
 
-
-## Section III: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION
+## Section VI: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION
 
 3. Distribution and Redistribution. You may host for Third Party remote access purposes (e.g. Software-as-a-service), reproduce and distribute copies of the Pylar Documents thereof in any medium, with or without modifications, provided that You meet the following conditions:
+
 - Use-based restrictions as referenced in paragraph 5 MUST be included as an enforceable provision by You in any type of legal agreement (e.g. a License) governing the use and/or distribution of the Pylar Documents, and You shall give notice to subsequent users You Distribute to, that the Pylar Documents are subject to paragraph 5. This provision applies also to the use of Pylar Documents and the Complementary Material.
 - You must give any Third Party recipients of the Pylar Documents a copy of this License;
 - You must cause any modified files to carry prominent notices stating that You changed the files;
@@ -107,8 +414,7 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 
 6. The Output You Generate. Except as set forth herein, Licensor claims no rights in the Output You generate using the Pylar Documents. You are accountable for the Output you generate and its subsequent uses. No use of the output can contravene any provision as stated in the License.
 
-
-## Section IV: OTHER PROVISIONS
+## Section VII: OTHER PROVISIONS
 
 7. Updates and Runtime Restrictions. To the maximum extent permitted by law, Licensor reserves the right to restrict (remotely or otherwise) usage of the Pylar Documents in violation of this License, update the Pylar Documents through electronic means, or modify the Output of the Pylar Documents based on updates. You shall undertake reasonable efforts to use the latest version of the Pylar Documents.
 
@@ -122,8 +428,7 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 
 12. If any provision of this License is held to be invalid, illegal or unenforceable, the remaining provisions shall be unaffected thereby and remain valid as if such provision had not been set forth herein.
 
-
-## Section V: LICENSE VERSIONS
+## Section VIII: LICENSE VERSIONS
 
 13. Any time the License is updated:
 
@@ -149,11 +454,17 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 
 24. the Owners can vote to update all Pylar Documents to the newer License version all the Owners must first approve by unnanimity the new version.
 
+## Section IX Official Sources
 
-## END OF TERMS AND CONDITIONS
+### What are the official sources
 
+- Github Author: [https://github.com/miguelgargallo/Pylar-AI-creative-ML-License](https://github.com/miguelgargallo/Pylar-AI-creative-ML-License)
+- Huggingface Author: [https://huggingface.co/spaces/superdatas/LICENSE/](https://huggingface.co/spaces/superdatas/LICENSE/)
+- SuperDatas Official Repo: [https://github.com/superdatas/License](https://github.com/superdatas/License)
 
-###  Attachment A
+## Section X END OF TERMS AND CONDITIONS
+
+### Attachment A
 
 #### Use Restrictions
 
@@ -170,10 +481,3 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 - For any use intended to or which has the effect of discriminating against individuals or groups based on legally protected characteristics or categories;
 - To provide medical advice and medical results interpretation;
 - To generate or disseminate information for the purpose to be used for administration of justice, law enforcement, immigration or asylum processes, such as predicting an individual will commit fraud/crime commitment (e.g. by text profiling, drawing causal relationships between assertions made in documents, indiscriminate and arbitrarily-targeted use).
-
-## Official Sources
-
-### What are the official sources
-
-- Github Author: [https://github.com/miguelgargallo/Pylar-AI-creative-ML-License](https://github.com/miguelgargallo/Pylar-AI-creative-ML-License)
-- Huggingface Author: [https://huggingface.co/spaces/superdatas/LICENSE/](https://huggingface.co/spaces/superdatas/LICENSE/)
